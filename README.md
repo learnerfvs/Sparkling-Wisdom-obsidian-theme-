@@ -50,5 +50,5 @@ That's it!
 Thanks for checking it out. :)
 
 If you liked, you can download it from here: [css file](https://github.com/learnerfvs/Sparkling-Wisdom-obsidian-theme-/blob/main/obsidian.css)
-It is currently under approval for display in community theme store inside the app. Once approved, you can search "Sparkling Wisdom" from the theme search within the obsidian itself. 
+It is currently under approval for display in community theme store inside the obsidian app. Once approved, you can search "Sparkling Wisdom" in the theme store and directly download and enable from the app itself. 
 ---
