@@ -17,7 +17,6 @@ SO CONTAINS MINI MINI SEGMENTS OF LEARNING.
 12. LIST
 13. IMAGE SIZE LIMITER (COURTESY --> BLUE TOPAZ THEME DEVELOPER
 14. FINAL TOUCHES TO SIDEBARS
-15. NAV CONTAINER WIDTH
 **********************************************************************/
 
 
@@ -841,43 +840,39 @@ ol {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   }
 
-.theme-dark div.el-table {
-    border-collapse: collapse;
-    margin: 25px 0 0 0;
-    border-radius: 22px 22px !important;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 255, 157, 0.712);
-    
-    }
+  .theme-dark div.el-table {
+    margin: 25px;
+  }
 
-  thead tr {
+
+  .theme-light thead tr {
     background-color: lightgreen;
     color: #000;
     text-align: left;
   }
 
-  .markdown-preview-view th,
-  .markdown-preview-view td {
+  .theme-light .markdown-preview-view th,
+  .theme-light .markdown-preview-view td {
     padding: 9px 10px;
   }
 
-  .markdown-preview-view tbody,
-  .markdown-preview-view tr {
+  .theme-light .markdown-preview-view tbody,
+  .theme-light .markdown-preview-view tr {
     border-bottom: 2px solid lightgreen;
   }
 
 
-  .markdown-preview-view tr:nth-of-type(even) {
+  .theme-light .markdown-preview-view tr:nth-of-type(even) {
     background-color: #f3f3f3;
     color: #000;
   }
 
-  .markdown-preview-view tbody:nth-of-type(2n+1) {
+  .theme-light .markdown-preview-view tbody:nth-of-type(2n+1) {
     background-color: white;
     color: #000;
   }
 
-  .markdown-preview-view tbody tr:last-of-type {
+  .theme-light .markdown-preview-view tbody tr:last-of-type {
     border-bottom: 5px solid lightgreen;
   }
 
@@ -886,6 +881,15 @@ ol {
     table-layout: fixed;
 }
 
+.theme-dark .markdown-preview-view th { 
+  padding: 3px 10px;
+  border: 4px solid rgba(255, 235, 205, 0.719);
+}
+
+
+.theme-dark .markdown-preview-view td {
+  padding: 4px 10px;
+  border: 1px solid rgba(255, 235, 205, 0.719);
 
 
 
