@@ -4,7 +4,7 @@ A CSS Theme designed for the knowledge management and note taking app Obsidian. 
 ![Cover Image](https://github.com/learnerfvs/Sparkling-Wisdom-obsidian-theme-/blob/main/sparkling%20wisdom.png)
 
 #### Credits:
-1. Blue Topaz Theme developer for sharing Image size limniter snippet.
+1. Blue Topaz Theme developer for sharing Image size limiter snippet.
 2. Dracula for Obsidian Theme Developer for simplyfing theme development.
 3. SIRvb discord contibutor of Obsidian Members Group discord for helping me out with queries!
 4. Shamama on Obsidian forum Meta Hacks post for snippets.
