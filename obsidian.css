@@ -936,7 +936,7 @@ ol {
 .theme-light div.el-table {
   border-collapse: collapse;
   margin: 25px 0;
-  border-radius: 22px 22px !important;
+  border-radius: 22px 22px ;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   }
@@ -982,16 +982,53 @@ ol {
     table-layout: fixed;
 }
 
-.theme-dark .markdown-preview-view th { 
-  padding: 3px 10px;
-  border: 4px solid rgba(255, 235, 205, 0.719);
-}
+
+/* DARK THEME TABLES */
+
+.theme-dark div.el-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  border-radius: 22px 22px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(155, 155, 155, 0.288);
+  }
+
+  .theme-dark div.el-table {
+    margin: 25px;
+  }
 
 
-.theme-dark .markdown-preview-view td {
-  padding: 4px 10px;
-  border: 1px solid rgba(255, 235, 205, 0.719);
-}
+  .theme-dark thead tr {
+    color: white;
+    background-color: rgb(61, 6, 40);
+    text-align: left;
+  }
+
+  .theme-dark .markdown-preview-view th,
+  .theme-dark .markdown-preview-view td {
+    padding: 9px 10px;
+  }
+
+  .theme-dark .markdown-preview-view tbody,
+  .theme-dark .markdown-preview-view tr {
+    border-bottom: 2px solid rgb(61, 6, 40);
+  }
+
+
+  .theme-dark .markdown-preview-view tr:nth-of-type(even) {
+    background-color: rgb(61, 6, 40);
+    color: #f3f3f3;
+  }
+
+  .theme-dark .markdown-preview-view tbody:nth-of-type(2n+1) {
+    background-color: rgb(22, 13, 0);
+    color: white;
+  }
+
+  .theme-dark .markdown-preview-view tbody tr:last-of-type {
+    border-bottom: 5px solid rgb(61, 6, 40);
+  }
+
 
 
 /* NAV CONTAINER WIDTH */
