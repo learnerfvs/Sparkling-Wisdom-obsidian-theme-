@@ -251,13 +251,12 @@ SO CONTAINS MINI MINI SEGMENTS OF LEARNING.
 /********************** HEADINGS ****************************/
 
 
-.markdown-preview-section h1 {
+.HyperMD-header-1, .markdown-preview-section h1 {
 	color:white;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700 ;
-  line-height: 135% ;
   margin: 0.8em 0 0.2em 0;
   padding-bottom: 15px;
   padding-top: 15px;
@@ -267,62 +266,44 @@ SO CONTAINS MINI MINI SEGMENTS OF LEARNING.
   
 }
 
-.HyperMD-header-1,
-.cm-header-1 {
-	color:white;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	text-align: left;
-  font-size: 18px;
-  font-weight: 700 ;
-	text-decoration: none;
-  text-transform: uppercase;
-  padding-right: 5px;
-  padding-left: 5px;
-  
+.cm-header-1.cm-header-1.cm-header-1,
+.markdown-preview-view h1 {
+	font-size: 20px;
 }
 
 
 /*-------------------*/
 
-.markdown-preview-section h2 {
+
+.cm-header-2.cm-header-2.cm-header-2,
+.markdown-preview-view h2 {
+	font-size: 18px;
+}
+
+
+.HyperMD-header-2, .markdown-preview-view h2 {
 	color:white;
   background: radial-gradient(circle, rgba(9,9,121,1) 50%, rgba(0,104,255,1) 100%);
 	text-decoration: none;
   text-align: center;
-  font-size: 20px;
-  font-weight: 600 ;
-  line-height: 115% ;
+  font-size: 18px;
   margin: 0.8em 0 0.2em 0 ;
   padding-bottom: 5px;
-  border-radius: 5px;
+  border-radius: 8px;
   padding-right: 5px;
   padding-left: 5px;
 }
 
-.HyperMD-header-2,
-.cm-header-2 {
-	color:white;
-  background: radial-gradient(circle, rgba(9,9,121,1) 50%, rgba(0,104,255,1) 100%);
-	text-decoration: none;
-  font-size: 16px;
-  font-weight: 600 ;
-  line-height: 115% ;
-  margin: 0.8em 0 0.2em 0 ;
-  padding-bottom: 5px;
-  padding-right: 5px;
-  padding-left: 5px;
-}
 
 /*-----------------*/
-.markdown-preview-section h3,
-.HyperMD-header-3,
-.cm-header-3 {
-	color:palevioletred;
+
+.cm-header-3.cm-header-3.cm-header-3,
+.markdown-preview-view h3 {
+	  color:palevioletred;
     font-family: var(--font-sans-serif) ;
-	text-decoration: none;
-    font-size: 1.1em;
+	  text-decoration: none;
+    font-size: 16px;
     font-weight: 500 ;
-    line-height: 115% ;
     margin: 0.8em 0 0.2em 0 ;
     padding-bottom: 5px;
 }
@@ -330,7 +311,7 @@ SO CONTAINS MINI MINI SEGMENTS OF LEARNING.
 
 .markdown-preview-section h3,
 .HyperMD-header-3 {
-    border-bottom: 4px solid palevioletred;
+  border-bottom: 4px solid palevioletred;
 	border-left: 3px solid palevioletred;
 	border-right: 2px solid palevioletred;
 	border-top: 0.1em solid palevioletred;
@@ -341,15 +322,18 @@ SO CONTAINS MINI MINI SEGMENTS OF LEARNING.
 
 /*-----------------*/
 
+.cm-header-4.cm-header-4.cm-header-4,
+.markdown-preview-view h4 {
+	font-size: 16px;
+}
+
 .markdown-preview-section h4,
 .HyperMD-header-4,
 .cm-header-4 {
 	color:CadetBlue;
 	padding-left:4px;
     font-family: var(--font-sans-serif) ;
-    font-size: 1em;
-    font-weight: 500 ;
-    line-height: 115% ;
+    font-size: 16px;
     margin: 0.8em 0 0.2em 0 ;
     padding-bottom: 5px;
 }
@@ -446,12 +430,35 @@ SO CONTAINS MINI MINI SEGMENTS OF LEARNING.
   margin-inline-end: 30px;
 }
 
-.theme-dark .cm-quote.cm-quote {
-  color: #30D5C8;
+.theme-dark .HyperMD-quote.CodeMirror-line,
+.theme-dark .markdown-source-view.mod-cm6 .cm-line.HyperMD-quote {
+  border-radius: 0 20px 20px 0;
+  font-weight: 600;
+  border-top: 3px solid lightseagreen;
+  border-right: 3px solid lightseagreen;
+  border-bottom: 3px solid lightseagreen;
+  border-left:10px dotted lightseagreen;
+  padding: 10px 20px;
+  margin-inline-start: 30px;
+  margin-inline-end: 30px;
+  color:white;
+
 }
 
-.theme-light .cm-quote.cm-quote {
-  color:  chocolate;
+
+
+.theme-light .HyperMD-quote.CodeMirror-line,
+.theme-light .markdown-source-view.mod-cm6 .cm-line.HyperMD-quote {
+  border-radius: 0 20px 20px 0;
+  font-weight: 600;
+  border-top: 3px solid chocolate;
+  border-right: 3px solid chocolate;
+  border-bottom: 3px solid chocolate;
+  border-left:10px dotted chocolate;
+  padding: 10px 20px;
+  margin-inline-start: 30px;
+  margin-inline-end: 30px;
+
 }
 
 .theme-light .markdown-preview-view blockquote {
