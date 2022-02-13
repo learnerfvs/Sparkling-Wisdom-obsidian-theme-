@@ -863,12 +863,13 @@ ol {
 .nav-folder-title {
   color: black;
   font-size: 12px;
-  margin-left: -25px;
   font-weight: 400;
+  padding-left: 10px;
 }
 
-.nav-file-title{
-  margin-left: -29px;
+.theme-light .nav-file-title{
+  margin-left: -20px;
+  color: #000000;
   font-size: 12px;
   text-overflow: ellipsis !important;
   white-space: nowrap !important;
@@ -876,13 +877,33 @@ ol {
   width: 100%;
 }
 
+.theme-light .nav-folder-children .nav-folder-children {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  border-top: none;
+  margin-right: 5px;;
+  border-radius: 0px;
+}
+
+.theme-dark .nav-file-tag {
+  color: white;
+}
+
+.nav-file-tag {
+  color: white;
+  font-weight: 600;
+  background-color: #009b81;
+}
 
 
-.nav-folder-children .nav-folder-children .nav-file-title { 
+.theme-dark .nav-file-title{
+  margin-left: -20px;
+  color: white;
   font-size: 12px;
-  padding-left: 10px;
-  margin-left: -16px;
-
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  width: 100%;
 }
 
 /* Don't display collapse indicators */
